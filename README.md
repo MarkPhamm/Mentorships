@@ -19,6 +19,7 @@ So every guide here comes back to two questions:
 | [GitHub profile](github/README.md) | Build projects nobody else has, then present them so your GitHub proves what your resume claims |
 | [Portfolio site](portfolio/README.md) | Ship fast from a template, then make it unmistakably yours |
 | [Resume](resume/README.md) | One page, familiar layout, content nobody else has; why I use LaTeX, and how my junior-year resume stood out |
+| [Readings](readings/README.md) | My posts, in reading order: SQL fundamentals, projects, dashboards, analytics engineering, resumes and dev setup |
 
 ## How to use these guides
 

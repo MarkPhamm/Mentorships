@@ -17,6 +17,7 @@ portfolio/README.md    portfolio site guide
 portfolio/images/
 resume/README.md       resume guide (LaTeX, junior-year case study)
 resume/images/
+readings/README.md     links to Mark's Facebook and Substack posts, grouped by topic
 ```
 
 ## The thesis: don't be a minion
