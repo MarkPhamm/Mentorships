@@ -18,6 +18,7 @@ So every guide here comes back to two questions:
 | [LinkedIn profile](linkedin/README.md) | Find your angle and make a recruiter stop scrolling, with my own profile as a worked example |
 | [GitHub profile](github/README.md) | Build projects nobody else has, then present them so your GitHub proves what your resume claims |
 | [Portfolio site](portfolio/README.md) | Ship fast from a template, then make it unmistakably yours |
+| [Resume](resume/README.md) | One page, familiar layout, content nobody else has; why I use LaTeX, and how my junior-year resume stood out |
 
 ## How to use these guides
 

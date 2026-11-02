@@ -15,6 +15,8 @@ github/README.md       GitHub profile guide
 github/images/
 portfolio/README.md    portfolio site guide
 portfolio/images/
+resume/README.md       resume guide (LaTeX, junior-year case study)
+resume/images/
 ```
 
 ## The thesis: don't be a minion
@@ -56,13 +58,16 @@ Guides link to each other with relative links (`../github/README.md#anchor`). If
 - Profiles change. When you update an example, check the live page and add the month and year (e.g. "November 2026") in the guide intro.
 - Mark's profiles don't always agree with each other (titles and start dates differ between LinkedIn, the GitHub README and the portfolio). The guides tell mentees to keep these consistent, so flag any mismatch to Mark rather than copying one version into a guide as if it were the truth.
 - The portfolio's `VERSION.md` can describe work that isn't deployed yet. Describe what's live on minhbpham.com, not what the changelog says.
+- Mark's resume source is a private repo (`~/Downloads/Minh_Pham_Resume` on his Mac: LaTeX source, achievements file, long-form experience doc, junior-year PDF). Only the PDF is public, at github.com/MarkPhamm/resume. Quote from it, but never publish the source files, the achievements file or job descriptions.
+- The resume guide is the one exception to "differentiate everywhere": on a resume, the **layout** should be familiar and single-column; differentiation comes from the content.
+- Mark's stance on resume claims is **poker, not a sworn statement**: you can say whatever you want as long as you can back it up; don't bluff too little or too much; find the sweet spot. Keep that framing (don't rewrite it into "never inflate"). The one hard line is "face-up cards": employers, titles, dates, degrees, GPA and certifications are never bluffed.
 
 ## Images
 
 - Each guide keeps its screenshots in its own `images/` folder, named `NN-section-name.png` in page order (e.g. `07-experience.png`), and references them relatively: `![Alt text](images/07-experience.png)`.
 - Crop each screenshot to the one section it illustrates. Leave out browser chrome, sidebars and the mouse cursor.
 - **Privacy, because this repo is public:**
-  - Never include private data: LinkedIn Analytics, profile viewers, phone numbers, personal email addresses, or "People you may know" style sidebars.
+  - Never include private data: LinkedIn Analytics, profile viewers, phone numbers, personal email addresses (blur them on resume images too), or "People you may know" style sidebars.
   - Blur other people's faces (recommenders, contributors, testimonial avatars). Their names and public recommendation text can stay.
   - Tell Mark what third-party content an image contains before it's pushed.
 - Prefer screenshots taken from the public view of a profile, so edit buttons don't show.
