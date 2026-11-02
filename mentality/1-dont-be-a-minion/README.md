@@ -1,4 +1,4 @@
-*Part of [Mentality](../README.md) · Next: [2. Play it like poker](../2-play-it-like-poker/README.md)*
+*Part of [Mentality](../README.md) · Previous: [0. Apply the way you swipe on Tinder](../0-apply-like-tinder/README.md) · Next: [2. Play it like poker](../2-play-it-like-poker/README.md)*
 
 # 1. Don't be a minion
 
@@ -30,4 +30,4 @@ Because it feels safe. If you copy the template everyone uses, nobody can say yo
 - [ ] What are my 3–5 only-me facts? If I can't name them, what will I build or do this month to create one?
 - [ ] Does anything on my profiles fail the copy-paste test?
 
-*Part of [Mentality](../README.md) · Next: [2. Play it like poker](../2-play-it-like-poker/README.md)*
+*Part of [Mentality](../README.md) · Previous: [0. Apply the way you swipe on Tinder](../0-apply-like-tinder/README.md) · Next: [2. Play it like poker](../2-play-it-like-poker/README.md)*

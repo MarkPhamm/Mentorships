@@ -184,7 +184,9 @@ The pattern: **as experience grows, the resume gets more focused, not longer.** 
 
 ---
 
-## Tailor every application
+## Tailor for the roles you really want
+
+Most applications should be quick: send your strong general resume and move on ([fire and forget](../mentality/0-apply-like-tinder/README.md#fire-and-forget)). For your top 5–10 roles, the Super Likes, tailor properly:
 
 - Read the job description and highlight the keywords and the problems they mention.
 - Reorder bullets so the most relevant ones come first, and swap in bullets from your brag document that match.
@@ -263,7 +265,7 @@ The [Mentality guide](../mentality/2-play-it-like-poker/README.md) covers the po
 **Finally**
 
 - [ ] **Copy-paste test:** no bullet could appear unchanged on 1,000 other resumes.
-- [ ] Tailored to this specific job description.
+- [ ] For my Super Likes: tailored to that specific job description, with a referral if I can get one.
 - [ ] **Poker test:** every line is as strong as I can make it, and I could defend each one for 10 minutes in an interview.
 - [ ] No bluffs on face-up cards: employers, titles, dates, degrees, GPA, certifications.
 - [ ] Read it out loud and fixed every typo.

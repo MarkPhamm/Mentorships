@@ -1,4 +1,4 @@
-*Part of [Mentality](../README.md) · Previous: [3. Detach](../3-detachment/README.md)*
+*Part of [Mentality](../README.md) · Previous: [3. Detach](../3-detachment/README.md) · Next: [5. Push to failure](../5-push-to-failure/README.md)*
 
 # 4. Find your competitive advantage
 
@@ -121,4 +121,4 @@ Stay on the right side of the [poker](../2-play-it-like-poker/README.md) line: e
 - [ ] Can I say my pitch out loud in under 30 seconds?
 - [ ] Is it the first thing people see on my LinkedIn, resume, portfolio and cold messages?
 
-*Part of [Mentality](../README.md) · Previous: [3. Detach](../3-detachment/README.md)*
+*Part of [Mentality](../README.md) · Previous: [3. Detach](../3-detachment/README.md) · Next: [5. Push to failure](../5-push-to-failure/README.md)*
