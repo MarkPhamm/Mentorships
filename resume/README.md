@@ -214,6 +214,8 @@ So sometimes you have to inflate yourself to look more impressive. But inflate t
 
 Some cards can't be bluffed, because anyone can check them: **employers, job titles, dates, degrees, GPA and certifications.** Background checks verify them, and recruiters compare them with your LinkedIn. Get caught bluffing here and you don't just lose the hand: offers get rescinded and people get fired, sometimes years later. **Bluff on how you frame your work, never on these facts.**
 
+The [Mentality guide](../mentality/2-play-it-like-poker/README.md) covers the poker mindset beyond the resume: interviews, negotiation, and not going on tilt.
+
 ---
 
 ## Common mistakes

@@ -9,6 +9,8 @@ Mentorship guidelines that Mark Pham (Senior / L6 Analytics Engineer at Infinite
 ```
 README.md              index of guides + "the one rule"
 CLAUDE.md              this file
+mentality/README.md    the mindset behind every guide (index of 4 parts)
+mentality/1-dont-be-a-minion/  2-play-it-like-poker/  3-detachment/  4-competitive-advantage/
 linkedin/README.md     LinkedIn profile guide
 linkedin/images/       screenshots used by that guide
 github/README.md       GitHub profile guide
@@ -28,6 +30,8 @@ Every guide and every edit should reinforce two tests:
 
 1. **Copy-paste test:** could 1,000 other candidates paste this line, project or page unchanged? If yes, it's not good enough.
 2. **Only-me test:** what is true about this person that isn't true about the rest of the pile? A number they produced, a tool people use, a community they run, data nobody else has, an unusual path, an obsession.
+
+The [mentality guide](mentality/README.md) is the canonical statement of Mark's four core ideas: **don't be a minion**, **play it like poker** (bold, but only bet what you can back up; never bluff face-up cards), **detachment** (the more desperate you are, the further you are from success) and **find your competitive advantage** (what's only true about you, translated for the audience and pitched everywhere). Each part is its own README under `mentality/`. Other guides should stay consistent with it and link to it rather than restating it at length.
 
 Never write advice that produces sameness, such as a fill-in-the-blanks formula or a "strong" example that is itself generic. If you add an example, ask whether it passes the copy-paste test. If it's invented, label it as an illustration and tell readers not to copy it.
 
