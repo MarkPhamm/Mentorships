@@ -108,17 +108,4 @@ Many people, especially those of us raised to be modest, feel uncomfortable putt
 
 Stay on the right side of the [poker](../2-play-it-like-poker/README.md) line: everything you pitch should be true and easy to back up.
 
----
-
-## Questions to ask yourself
-
-- [ ] If a recruiter asked "why you instead of an Ivy League kid?", what would I say in one sentence?
-- [ ] For the role I want most: do I know their exact tech stack, have I talked to someone on the team, and have I gone deep on the one tool that matters most?
-- [ ] Have I written down everything from the "Where to look" list that applies to me, even the small things?
-- [ ] Which 3 facts on that list would the other candidates for this role **not** have?
-- [ ] Does each one make sense to someone in the country and company I'm applying to, or do I need to add context?
-- [ ] Have I answered the "so what?" for each one?
-- [ ] Can I say my pitch out loud in under 30 seconds?
-- [ ] Is it the first thing people see on my LinkedIn, resume, portfolio and cold messages?
-
 *Part of [Mentality](../README.md) · Previous: [3. Detach](../3-detachment/README.md) · Next: [5. Push to failure](../5-push-to-failure/README.md)*

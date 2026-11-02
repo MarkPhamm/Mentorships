@@ -41,13 +41,4 @@ Obsession is also what makes [pushing to failure](../5-push-to-failure/README.md
 
 (One line I'd draw: this is about helping people and creating things, not doing a company's paid work for free.)
 
----
-
-## Questions to ask yourself
-
-- [ ] What would I keep doing even if nobody paid me or watched?
-- [ ] When did I last help someone without expecting anything back?
-- [ ] Am I writing, building or mentoring for the process, or for the numbers?
-- [ ] When did I last lose track of time because I was curious about something?
-
 *Part of [Mentality](../README.md) · Previous: [7. Prove, don't beg](../7-prove-dont-beg/README.md) · Next: [9. Learn to say no, disagree, and spot BS](../9-spot-the-bs/README.md)*

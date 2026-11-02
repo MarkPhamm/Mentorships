@@ -56,13 +56,4 @@ The same skill applies off social media:
 
 You don't have to win every argument. But you should never agree with something just because of who said it, or how many people liked it.
 
----
-
-## Questions to ask yourself
-
-- [ ] What's the last piece of career advice I believed without checking who said it and why?
-- [ ] Before I react to a post, do I look at the person's background and incentives?
-- [ ] When did I last disagree with someone senior, with a reason?
-- [ ] What's one thing I should say no to right now?
-
 *Part of [Mentality](../README.md) · Previous: [8. Do it for the sake of doing it](../8-do-it-for-the-sake-of-doing-it/README.md)*

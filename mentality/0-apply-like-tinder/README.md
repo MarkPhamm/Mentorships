@@ -72,16 +72,4 @@ All in all, the best way to meet someone is still through a friend. A **referral
 
 Swipe a lot, keep your profile sharp, fix it when the numbers tell you to, and get introduced whenever you can.
 
----
-
-## Questions to ask yourself
-
-- [ ] How many applications did I send in the last two weeks? Is that swiping, or waiting?
-- [ ] Have I pre-rejected myself from roles I'd at least want a first date with?
-- [ ] Which 2–3 roles are my Super Likes? Have I tailored my resume and asked for a referral for each?
-- [ ] Am I spending Super Like effort on swipes, or worrying about applications I should have forgotten?
-- [ ] Do I track my funnel? Which stage is my weakest?
-- [ ] What does someone see in the first 5 seconds of my resume?
-- [ ] Who do I know at the 5 companies I want most, and have I asked them for an introduction?
-
 *Part of [Mentality](../README.md) · Next: [1. Don't be a minion](../1-dont-be-a-minion/README.md)*

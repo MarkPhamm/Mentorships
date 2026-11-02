@@ -45,13 +45,4 @@ I understand the feeling behind them. But to a hiring manager, a post like that 
 
 Every post, message and interview answer either proves something or begs for something. Make it prove.
 
----
-
-## Questions to ask yourself
-
-- [ ] Am I still thinking like it's school, where doing well enough means everyone passes?
-- [ ] What can I control about how I come across (preparation, clothes, posture, speaking) that I'm not working on?
-- [ ] In my last interview, was I proving or asking?
-- [ ] Would my last LinkedIn post make a hiring manager want me, or pity me?
-
 *Part of [Mentality](../README.md) · Previous: [6. There's no such thing as burning out](../6-no-such-thing-as-burnout/README.md) · Next: [8. Do it for the sake of doing it](../8-do-it-for-the-sake-of-doing-it/README.md)*

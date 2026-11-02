@@ -32,13 +32,4 @@ In the gym, the rep you fail is the one that tells you where your limit is, and 
 
 **Resilience is just getting back under the bar.** Not taking a week off because one rep failed. Not dropping back to a lighter weight to feel good again. Rest, then go again.
 
----
-
-## Questions to ask yourself
-
-- [ ] What's my "moderate weight" right now: the work I keep doing because it's comfortable?
-- [ ] What's one thing this week that I'm genuinely not sure I can do?
-- [ ] When did I last push something until I really couldn't do more?
-- [ ] After my last failed rep (rejection, bug, bad interview), how fast did I get back under the bar?
-
 *Part of [Mentality](../README.md) · Previous: [4. Find your competitive advantage](../4-competitive-advantage/README.md) · Next: [6. There's no such thing as burning out](../6-no-such-thing-as-burnout/README.md)*

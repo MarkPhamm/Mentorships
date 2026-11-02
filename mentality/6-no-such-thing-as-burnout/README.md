@@ -27,12 +27,4 @@ If that's honestly you (you're not sleeping, not eating properly, can't function
 
 The people who get ahead aren't the ones who never feel tired. They're the ones who don't let feeling tired become a reason to stop.
 
----
-
-## Questions to ask yourself
-
-- [ ] Do I sleep enough, exercise, and still have time to scroll? Then what am I actually feeling: tired, bored, unmotivated or overwhelmed?
-- [ ] Have I used "burnout" as a reason to slow down recently? Was it true?
-- [ ] What's one thing I can cut (scrolling, not work) to get more rest?
-
 *Part of [Mentality](../README.md) · Previous: [5. Push to failure](../5-push-to-failure/README.md) · Next: [7. Prove, don't beg](../7-prove-dont-beg/README.md)*
