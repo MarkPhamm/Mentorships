@@ -24,7 +24,12 @@ People smell desperation faster than anything else (see [Detach](../3-detachment
 
 Change the frame. You're not asking them for a job. **You're showing them you're the best person for it, and if they reject you, they're the ones missing out.**
 
-Watch Harvey Specter interviewing Mike Ross in the first episode of *Suits*. Mike walks in with no law degree, no Harvard, nothing on paper, and wins the job anyway. He doesn't plead his case. He shows Harvey what he can do, and makes Harvey realise he'd be a fool to pass on him. That's the energy.
+Watch these two interview scenes before your next interview:
+
+- **[Harvey Specter interviews Mike Ross](https://www.youtube.com/watch?v=tcx3zwhEIOw)** (*Suits*, episode 1). Mike walks in with no law degree, no Harvard, nothing on paper, and wins the job anyway. He doesn't plead his case. He shows Harvey what he can do, and makes Harvey realise he'd be a fool to pass on him.
+- **[The Underwood Samson interview: Changez Khan vs. Jim Cross](https://www.youtube.com/watch?v=Mz8BnduMnsw)** (*The Reluctant Fundamentalist*). Changez, a young financial analyst candidate, interviewing at Underwood Samson, a New York valuation firm.
+
+That's the energy. Neither of them begs.
 
 ## Desperate posts are a red flag
 
