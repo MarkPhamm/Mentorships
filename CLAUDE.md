@@ -18,6 +18,11 @@ github/README.md       GitHub profile guide
 github/images/
 portfolio/README.md    portfolio site guide
 portfolio/images/
+data-stack/README.md   data stack guide (index of 8 parts)
+data-stack/0-the-data-stack/  1-sources/  2-ingestion/  3-landing/  4-warehouse/  5-transformation/
+          6-serving/  7-orchestration/  images/
+projects/README.md     projects guide (index of 3 roles)
+projects/data-analyst/  analytics-engineer/  data-engineer/
 resume/README.md       resume guide (LaTeX, junior-year case study)
 resume/images/
 readings/README.md     links to Mark's Facebook and Substack posts, grouped by topic
