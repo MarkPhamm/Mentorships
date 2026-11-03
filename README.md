@@ -24,6 +24,7 @@ The [Mentality](mentality/README.md) guide goes deeper on this, plus the other i
 | [Data stack](data-stack/README.md) | Every layer of a data platform, one page each: sources, ingestion, landing, warehouse (OLTP vs OLAP, lakehouse), transformation, serving and orchestration |
 | [Projects](projects/README.md) | What a data analyst, analytics engineer or data engineer project should show, with project ideas for each |
 | [Resume](resume/README.md) | One page, familiar layout, content nobody else has; why I use LaTeX, and how my junior-year resume stood out |
+| [Tips](tips/README.md) | Networking and interview tips: max out your LinkedIn connections, read the people, small talk, coffee chats with the team, and don't over-prepare |
 | [Readings](readings/README.md) | My posts, in reading order: SQL fundamentals, projects, dashboards, analytics engineering, resumes and dev setup |
 
 ## How to use these guides

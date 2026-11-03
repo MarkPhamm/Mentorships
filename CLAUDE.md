@@ -25,6 +25,8 @@ projects/README.md     projects guide (index of 3 roles)
 projects/data-analyst/  analytics-engineer/  data-engineer/
 resume/README.md       resume guide (LaTeX, junior-year case study)
 resume/images/
+tips/README.md         networking and interview tips (index of 5 parts)
+tips/1-max-out-linkedin/  2-read-the-people/  3-small-talk-wins/  4-coffee-chat-the-team/  5-dont-over-prepare/
 readings/README.md     links to Mark's Facebook and Substack posts, grouped by topic
 ```
 
