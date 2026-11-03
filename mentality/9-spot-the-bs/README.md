@@ -1,4 +1,4 @@
-*Part of [Mentality](../README.md) · Previous: [8. Do it for the sake of doing it](../8-do-it-for-the-sake-of-doing-it/README.md)*
+*Part of [Mentality](../README.md) · Previous: [8. Do it for the sake of doing it](../8-do-it-for-the-sake-of-doing-it/README.md) · Next: [10. Be proactive](../10-be-proactive/README.md)*
 
 # 9. Learn to say no, disagree, and spot BS
 
@@ -56,4 +56,4 @@ The same skill applies off social media:
 
 You don't have to win every argument. But you should never agree with something just because of who said it, or how many people liked it.
 
-*Part of [Mentality](../README.md) · Previous: [8. Do it for the sake of doing it](../8-do-it-for-the-sake-of-doing-it/README.md)*
+*Part of [Mentality](../README.md) · Previous: [8. Do it for the sake of doing it](../8-do-it-for-the-sake-of-doing-it/README.md) · Next: [10. Be proactive](../10-be-proactive/README.md)*

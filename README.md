@@ -17,7 +17,7 @@ The [Mentality](mentality/README.md) guide goes deeper on this, plus the other i
 
 | Topic | What it covers |
 |---|---|
-| [Mentality](mentality/README.md) | **Start here.** Apply the way you swipe on Tinder, don't be a minion, play it like poker, detach (the more desperate you are, the further you are from success), find your competitive advantage, push to failure, no burnout excuses, prove don't beg, do it for the sake of doing it, and spot BS |
+| [Mentality](mentality/README.md) | **Start here.** Apply the way you swipe on Tinder, don't be a minion, play it like poker, detach (the more desperate you are, the further you are from success), find your competitive advantage, push to failure, no burnout excuses, prove don't beg, do it for the sake of doing it, spot BS, and be a little extra proactive |
 | [LinkedIn profile](linkedin/README.md) | Find your angle and make a recruiter stop scrolling, with my own profile as a worked example |
 | [GitHub profile](github/README.md) | Build projects nobody else has, then present them so your GitHub proves what your resume claims |
 | [Portfolio site](portfolio/README.md) | Ship fast from a template, then make it unmistakably yours |

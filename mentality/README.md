@@ -2,7 +2,7 @@
 
 The other guides are about **what** to put on your LinkedIn, GitHub, portfolio and resume. This one is about **how to think** while you job hunt. In my experience, the mindset decides more outcomes than the formatting does.
 
-Ten ideas, each in its own page. Start with 0, the reality of the market, then read the rest in order; they build on each other.
+Eleven ideas, each in its own page. Start with 0, the reality of the market, then read the rest in order; they build on each other.
 
 | | Idea | In one line |
 |---|---|---|
@@ -16,6 +16,7 @@ Ten ideas, each in its own page. Start with 0, the reality of the market, then r
 | 7 | [Prove, don't beg](7-prove-dont-beg/README.md) | It's not school anymore: it's zero-sum and people judge. Win with confidence and proof, never desperation. |
 | 8 | [Do it for the sake of doing it](8-do-it-for-the-sake-of-doing-it/README.md) | Help people and create things for free, out of curiosity. Fall in love with the process, not the result. It pays out later. |
 | 9 | [Learn to say no, disagree, and spot BS](9-spot-the-bs/README.md) | Step back, look at what they say, who they are and where they're coming from. A title isn't an argument. |
+| 10 | [Be proactive: be a little extra](10-be-proactive/README.md) | Attitude matters at every stage, but being a little extra proactive early on gives you the biggest advantage. |
 
 ## How they fit together
 
@@ -27,6 +28,7 @@ Ten ideas, each in its own page. Start with 0, the reality of the market, then r
 - **Pushing to failure** is how you build a better hand, and **refusing the burnout excuse** is how you keep building it.
 - **Proving, not begging** is how you play it in the room.
 - **Doing it for the sake of doing it** is what makes all of this sustainable: when you love the process, you don't need any single outcome.
+- **Being a little extra proactive** is how you get there faster: you don't wait to be asked, so you get noticed first.
 - **Spotting BS** protects all of it: you don't waste your effort following bad advice just because someone loud gave it.
 
 Find your advantage and keep pushing it further, and you have something worth showing. Don't be a minion, and people notice it. Play it like poker and prove it with confidence, and you get through the door. Detachment keeps you steady enough to do all of it.
