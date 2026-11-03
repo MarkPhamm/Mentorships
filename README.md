@@ -21,6 +21,7 @@ The [Mentality](mentality/README.md) guide goes deeper on this, plus the other i
 | [LinkedIn profile](linkedin/README.md) | Find your angle and make a recruiter stop scrolling, with my own profile as a worked example |
 | [GitHub profile](github/README.md) | Build projects nobody else has, then present them so your GitHub proves what your resume claims |
 | [Portfolio site](portfolio/README.md) | Ship fast from a template, then make it unmistakably yours |
+| [Projects](projects/README.md) | The data stack layer by layer, what a data analyst, analytics engineer or data engineer project should show, how to pick a data source, and project ideas |
 | [Resume](resume/README.md) | One page, familiar layout, content nobody else has; why I use LaTeX, and how my junior-year resume stood out |
 | [Readings](readings/README.md) | My posts, in reading order: SQL fundamentals, projects, dashboards, analytics engineering, resumes and dev setup |
 

@@ -24,6 +24,8 @@ This matters more than anything else in this guide. Presentation only amplifies 
 - **Go one level deeper than everyone else.** Everyone builds a pipeline; few add tests, CI, incremental models, Terraform and docs. Depth is a differentiator too.
 - **Pick a question you actually care about.** Curiosity shows. "Do Shopee flash sales actually save you money?" is more interesting to read about than "E-commerce sales analysis".
 
+The [projects guide](../projects/README.md) goes deeper: what each role's project should show, and how to pick a data source.
+
 **The copy-paste test:** if 1,000 other candidates could have the same repo, it won't get you remembered. Ask what part of yours only you could have made.
 
 **My examples:**
