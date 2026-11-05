@@ -9,7 +9,7 @@ Recruiters don't read LinkedIn profiles the way you read a resume. They **search
 
 So keywords get you found; **differentiation gets you hired.**
 
-The sections below follow the order they appear on a LinkedIn profile, top to bottom. Each one has a screenshot of the same section on [my profile](https://www.linkedin.com/in/minhbphamm/) (November 2026), so you can see it in practice. There's a [self-review checklist](#self-review-checklist) at the end.
+The sections below follow the order they appear on a LinkedIn profile, top to bottom. Each one has a screenshot of the same section on [my profile](https://www.linkedin.com/in/minhbphamm/) (November 2026), so you can see it in practice. Each section ends with a short checklist, and the full [self-review checklist](#self-review-checklist) is at the end.
 
 ---
 
@@ -34,6 +34,12 @@ Keywords are what you share with every other candidate. Your angle is what you d
 
 If you can't write a single one yet, that's your real to-do list. Go build or do one thing worth talking about before polishing the profile. These facts go into every section below.
 
+**Checklist:**
+
+- [ ] I've written down one target role.
+- [ ] I've noted the keywords that repeat across 5 real job posts for it.
+- [ ] I've written down 3–5 only-me facts.
+
 ---
 
 ## 1. Banner and photo
@@ -44,6 +50,11 @@ If you can't write a single one yet, that's your real to-do list. Go build or do
 - **Banner (1584 × 396 px):** the biggest image on your profile, and most people leave LinkedIn's default blue, or upload a generic "data" stock image. Both are minion banners. Use it to say something about you.
 
 **On my profile:** the banner is a decision tree, not a logo or a list of tools: *try → win or lose; don't try → lose*. It's my philosophy in one picture, and the same idea shows up again in my About section and on my portfolio, so the whole profile feels like one person.
+
+**Checklist:**
+
+- [ ] My face fills most of the photo, with a plain background and good light.
+- [ ] My banner says something about me. It isn't LinkedIn's default blue or a stock "data" image.
 
 ## 2. Name and headline
 
@@ -73,6 +84,13 @@ Rules:
 
 **On my profile:** *"L6 Analytics Engineer @Infinite Lambda | Building @XomData, vutrinh"*. The role and level come first for search, then two things I build outside my job that nobody else in an "Analytics Engineer" search can claim. No list of tools, no buzzwords. My headline changes as my story changes; a few months ago it ended with *"Solving 1000s SQL Questions for fun | Curious individual"*.
 
+**Checklist:**
+
+- [ ] My name matches my resume (with my English name in brackets if I use one).
+- [ ] My headline has my target role plus at least one only-me fact.
+- [ ] None of the ban-list words.
+- [ ] **Copy-paste test:** 1,000 other people couldn't use my headline unchanged.
+
 ## 3. Location, contact info and links
 
 ![My public profile URL setting](images/03-public-url.png)
@@ -82,11 +100,23 @@ Rules:
 - **Link under your headline:** in **Edit intro**, add a website and its link text. It shows directly under your headline, one click from the top of your profile. Point it at your strongest proof. Mine says **My Portfolio**.
 - **Custom URL:** change `linkedin.com/in/nguyen-van-a-8b3c21a7` to something clean, like mine: `linkedin.com/in/minhbphamm`. Go to your profile → **Public profile & URL** (top right) → edit the URL. Put the same URL on your resume, GitHub and portfolio.
 
+**Checklist:**
+
+- [ ] Location is the city I want to work in.
+- [ ] Contact info has an email I check, plus my GitHub, portfolio and blog.
+- [ ] The link under my headline points at my strongest proof.
+- [ ] Custom URL set, and it's on my resume, GitHub and portfolio.
+
 ## 4. Open to Work
 
 Turn it on and fill in the job titles, locations and work types; recruiters filter on them. If you're employed, choose **Recruiters only** so there's no green frame on your photo.
 
 **On my profile** (in the top card above): *Recruiters only · Vietnam +1 more · On-site, Hybrid, Remote*.
+
+**Checklist:**
+
+- [ ] Open to Work is on, with job titles, locations and work types filled in.
+- [ ] If I'm employed, it's set to **Recruiters only**.
 
 ## 5. About and Top skills
 
@@ -105,6 +135,13 @@ Write in first person, in your own voice. Read it out loud: if it could be anyon
 
 **On my profile:** my About is one line: *"Whatever it takes ¯\\\_(ツ)\_/¯"*. It's memorable because it's unusual, and it works because everything below it backs it up: roles, numbers, side projects and recommendations. A short About is only a strength when the rest of the profile proves it. Early in your career, write the full version above, and make the hook yours. My Top skills (dbt, SQL, Airflow, Redshift, Power BI) are the tools of the job I do.
 
+**Checklist:**
+
+- [ ] The first 3 lines open with a hook only I could write.
+- [ ] It covers what I work on, proof with numbers, what I'm looking for and how to reach me.
+- [ ] I read it out loud, and it couldn't be anyone else's About.
+- [ ] Top skills are the 5 that match my target role.
+
 ## 6. Featured
 
 ![My Featured section](images/06-featured.png)
@@ -118,6 +155,12 @@ You can change the title of a featured link, so don't settle for "My GitHub".
 - **My GitHub profile, titled *How "committed" I am*.** It's a joke about commits, and much more clickable than "GitHub".
 - **A post I reshared from vutrinh**, where I write, with 147 reactions. It's proof from someone else's platform.
 - **My portfolio**, shown with the same try / don't-try image as my banner, captioned "Whatever it takes". Banner, About and portfolio all repeat the same idea.
+
+**Checklist:**
+
+- [ ] 2–4 items, each something I built or wrote, not a course certificate.
+- [ ] A recruiter can understand each one in under a minute.
+- [ ] Each link has a title worth clicking, not "My GitHub".
 
 ## 7. Experience
 
@@ -156,6 +199,15 @@ Notice the specific tools (dbt, Redshift keys, Mode), the scale (300GB+, 13 netw
 
 Further down still: internships at NAPAS, KPIM, Corning, TechSmith and Lazard, each with its own dates, plus teaching assistant, tutor, founder and even intramural referee. Read bottom to top, the titles go Data Analyst → BI Engineering Intern → Data Engineer Intern → Analytics Engineer → Analytics Engineer & Consultant. Arrange yours so the direction is just as clear.
 
+**Checklist:**
+
+- [ ] Every role is listed with real dates, internships, part-time and freelance included.
+- [ ] Each one has a line of context and 2–4 bullets: action + tool + result.
+- [ ] Numbers wherever they're honest, and my keywords in the bullets.
+- [ ] Skills attached to each entry.
+- [ ] Read top to bottom, my titles point toward my target role.
+- [ ] Titles and dates match my resume exactly.
+
 ## 8. Education
 
 ![My Education section](images/08-education.png)
@@ -164,6 +216,11 @@ Degree, school, dates. Add honours, a strong GPA, minors or a thesis only if the
 
 **On my profile:** each entry includes the honours line (*Magna Cum Laude*, *GPA 3.74*), and the minor in Fintech and Mathematics is its own entry.
 
+**Checklist:**
+
+- [ ] Degree, school and dates match my resume.
+- [ ] Honours, GPA, minors or a thesis only if they support my story.
+
 ## 9. Licenses and certifications
 
 ![My Licenses & certifications section](images/09-certifications.png)
@@ -171,6 +228,11 @@ Degree, school, dates. Add honours, a strong GPA, minors or a thesis only if the
 Certifications that carry weight in data: dbt, Snowflake, Databricks, Astronomer (Airflow), AWS / GCP / Azure data certs. Course-completion certificates are fine early on, but they're the most minion part of any profile, because everyone has the same ones. Don't let them crowd out real work.
 
 **On my profile:** 11, with the Astronomer Apache Airflow certification first because it's the most relevant to my job.
+
+**Checklist:**
+
+- [ ] The most relevant certification comes first.
+- [ ] Course-completion certificates don't crowd out real work.
 
 ## 10. Projects
 
@@ -192,6 +254,13 @@ One finished, well-documented project beats five half-done tutorials.
 - **quickdbd-cli:** an open-source ER diagram compiler, published on PyPI with a VS Code extension. A tool other people install, not an analysis.
 - **Skytrax Review Analysis:** *"Led a team of 8 to analyze 160K+ Skytrax airline reviews, delivering 10 insights and 3 actionable recommendations"*, with the 7 contributors tagged and skills attached.
 
+**Checklist:**
+
+- [ ] Each project has the problem, data, stack, a link, a thumbnail and one sentence on the result.
+- [ ] Collaborators tagged, and associated with a company or school where it fits.
+- [ ] No Titanic / Iris / Netflix / Superstore / COVID / Kaggle house-price projects.
+- [ ] My most original project comes first.
+
 ## 11. Skills
 
 ![My Skills section](images/11-skills.png)
@@ -200,6 +269,12 @@ One finished, well-documented project beats five half-done tutorials.
 - What matters most is your **Top skills** (section 5) and **which experiences each skill is attached to**. "dbt Cloud · 2 experiences at Infinite Lambda and 1 other company" is proof; a bare skill name isn't.
 
 **On my profile:** I've reached LinkedIn's limit of 100 skills, but nobody reads all 100. They read the top ones and where I used them.
+
+**Checklist:**
+
+- [ ] Skills come from my keyword list.
+- [ ] I could answer an interview question on every one.
+- [ ] My important skills are attached to the experiences where I used them.
 
 ## 12. Recommendations
 
@@ -214,6 +289,11 @@ Most profiles skip this section, and that's exactly why it's worth doing. A reco
 
 **On my profile:** 13 received and 5 given. Look at how specific the first one is: Marketing/SEO stakeholders, and knowing how dbt, Snowflake and Redshift work under the hood. That's far more convincing than anything I could write about myself.
 
+**Checklist:**
+
+- [ ] I've asked for at least one, ideally from a manager, and told them what I'd like them to mention.
+- [ ] I've written at least one honest, specific recommendation for someone else.
+
 ## 13. Courses
 
 ![My Courses section](images/13-courses.png)
@@ -221,6 +301,10 @@ Most profiles skip this section, and that's exactly why it's worth doing. A reco
 Mostly useful for students and recent graduates: list the courses that support your target role, with the course code, and associate them with your school. Skip general-education courses.
 
 **On my profile:** 13 courses, such as *Business Analytics (INSC 60050, MSBA)*.
+
+**Checklist:**
+
+- [ ] Only courses that support my target role, with the course code, associated with my school.
 
 ## 14. Activity: be visible
 
@@ -231,11 +315,23 @@ Once you post, your recent activity appears on your profile. A profile with no a
 - **Have a take.** Reposting "10 SQL tips" makes you one of a thousand people who reposted it. Saying what you actually think, and why, makes you someone people remember.
 - Connect with people you've actually interacted with, and always add a note.
 
+**Checklist:**
+
+- [ ] I comment on posts in my target field 2–3 times a week.
+- [ ] I've posted something I built, learned or got wrong in the last two weeks.
+- [ ] My posts say what I think, not reposted tips.
+- [ ] Every connection request has a note.
+
 ---
 
 ## Everything links together
 
 My LinkedIn links to my portfolio (under the headline) and my GitHub (in Featured). My GitHub profile README and my portfolio both link back. A recruiter who lands on any one of them can find the others. Make sure they all tell the **same story with the same titles and dates**, and update them together whenever something changes.
+
+**Checklist:**
+
+- [ ] My LinkedIn links to my GitHub and portfolio, and both link back.
+- [ ] Titles and dates match across LinkedIn, GitHub, my portfolio and my resume.
 
 ---
 

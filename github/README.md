@@ -6,7 +6,7 @@ Someone clicking through from your resume will spend about 30 seconds here. In t
 
 The problem: most candidates' GitHub looks the same. The default "Hi there 👋" README, a Titanic notebook, a Netflix EDA, a course capstone that 5,000 other students submitted. A tidy version of that is still a minion profile. **What gets you hired is the project the hiring manager has never seen before.**
 
-So this guide starts with what to build. Then it walks through a GitHub profile in the order a visitor sees it, top to bottom, with a screenshot of the same part of [my profile](https://github.com/MarkPhamm) (November 2026) in each section. There's a [self-review checklist](#self-review-checklist) at the end.
+So this guide starts with what to build. Then it walks through a GitHub profile in the order a visitor sees it, top to bottom, with a screenshot of the same part of [my profile](https://github.com/MarkPhamm) (November 2026) in each section. Each section ends with a short checklist, and the full [self-review checklist](#self-review-checklist) is at the end.
 
 ---
 
@@ -36,6 +36,12 @@ The [projects guide](../projects/README.md) goes deeper: what each role's projec
 
 None of these exist in anyone else's profile. That's what makes a hiring manager stop and open the repo.
 
+**Checklist:**
+
+- [ ] At least one project uses data I collected, is a tool other people can use, or solves a real problem for real people.
+- [ ] **Copy-paste test:** none of my projects is something 1,000 other candidates also have.
+- [ ] For each project, I can say which part only I could have made.
+
 ---
 
 ## 1. Photo, name, bio and links
@@ -49,6 +55,14 @@ None of these exist in anyone else's profile. That's what makes a hiring manager
 - **Username:** if yours is `xXcoder2003Xx`, consider renaming it now, before you put it on your resume. GitHub redirects old repo URLs, but not your profile URL.
 
 **On my profile:** the bio is *"L6 - Analytics Engineer @infinitelambda / Ex Analytics Engineer @insurify"*. Mentioning the company accounts with `@` turns them into links. Below that: my company, timezone (useful when you work remotely) and links to my company, LinkedIn, WakaTime, Substack and portfolio. Every other profile is one click away.
+
+**Checklist:**
+
+- [ ] Same photo as my LinkedIn.
+- [ ] My real name, as on my resume.
+- [ ] Bio has my role and where I work.
+- [ ] Company, location, portfolio and LinkedIn links filled in.
+- [ ] My username is one I'm happy to put on my resume.
 
 ## 2. The profile README
 
@@ -111,6 +125,14 @@ My profile repo runs **8 scheduled GitHub Actions workflows**, so the README upd
 
 **But start simple.** Mine has nearly a thousand commits behind it. You don't need any of this automation, but you do need one thing that's only yours. Automation is a bonus.
 
+**Checklist:**
+
+- [ ] A public repo named exactly like my username, with a README.
+- [ ] It isn't the default "Hi there 👋" or an untouched generator copy: at least one thing in it only I could have written or built.
+- [ ] Someone can scroll through it in under a minute.
+- [ ] Experience titles and dates match my resume and LinkedIn exactly.
+- [ ] Tech stack grouped by category, with only tools I could answer an interview question about.
+
 ## 3. Pinned repositories: your real resume
 
 ![My pinned repositories](images/07-pinned.png)
@@ -124,6 +146,12 @@ You can pin up to 6 repos. These matter more than anything else on the page.
 
 **On my profile:** every card's description says what the project does *and* the stack, so you can scan all six in a few seconds. For example: *"End-to-end ELT pipeline for 160K+ Skytrax airline reviews: Airflow orchestration, BeautifulSoup scraping, S3 staging, Snowflake warehouse, dbt star schema transformation, Terraform IaC…"* The stars and forks show other people found them useful too.
 
+**Checklist:**
+
+- [ ] 4–6 pinned repos, with no tutorial forks or class assignments without a README.
+- [ ] My most original project is pinned first.
+- [ ] Each one has a description (what + stack) and topics.
+
 ## 4. Contribution graph
 
 ![My contribution graph](images/08-contributions.png)
@@ -133,6 +161,11 @@ You can pin up to 6 repos. These matter more than anything else on the page.
 - Contributing to open source, even docs fixes, counts and is easy to talk about in interviews.
 
 **On my profile:** 4,415 contributions in the last year. The graph is green almost every week because there's always a project moving, not because I'm chasing squares.
+
+**Checklist:**
+
+- [ ] At least one project has commits from the last month.
+- [ ] Every commit is real work, not filler to paint squares.
 
 ## 5. Inside a project: the README
 
@@ -170,6 +203,13 @@ The architecture diagram or screenshot is the single highest-value addition. dra
 
 **On my profile:** the quickdbd-cli README opens with a logo, a one-line pitch (*"Interactive ER diagrams from QuickDBD text, DBML or a dbt project, readable at 200+ tables"*), then badges that prove it's real: PyPI version, CI passing, docs passing, 12k downloads, VS Code and Open VSX versions. Then links to docs, live demos and quickstart, and a screenshot of the actual product with a "Try it live" link. Within five seconds, a visitor knows what it is, that people use it, and how to try it.
 
+**Checklist:**
+
+- [ ] Every pinned project has a README with a one-line pitch, problem, stack, how it works, results, run instructions and what I'd do next.
+- [ ] Each one has an architecture diagram or screenshot near the top.
+- [ ] The Problem section says why my data or question is different.
+- [ ] Someone who's never seen my machine can run it from the instructions.
+
 ## 6. Signals that you think like a production engineer
 
 These are what separate a student project from one that gets you hired:
@@ -180,6 +220,12 @@ These are what separate a student project from one that gets you hired:
 - **Infrastructure as code:** Terraform or Docker Compose, so anyone can stand it up.
 - **Pull requests on your own repos:** work on a branch, open a PR, merge it. It shows you know the workflow teams actually use.
 
+**Checklist:**
+
+- [ ] At least one project has tests and CI, with a badge.
+- [ ] At least one project has docs or a data dictionary.
+- [ ] I work on branches and merge through pull requests, even on my own repos.
+
 ## 7. Repo hygiene
 
 - **Never commit secrets.** No passwords, API keys, `.env` files or `profiles.yml` with credentials. If you already did, rotate the key; deleting the file doesn't remove it from history.
@@ -188,6 +234,13 @@ These are what separate a student project from one that gets you hired:
 - Clear Jupyter notebook outputs that dump thousands of rows.
 - Name repos descriptively: `airline-reviews-pipeline`, not `project3` or `final_final_v2`.
 - Write commit messages that say what changed: `Add incremental model for daily bookings`, not `update`.
+
+**Checklist:**
+
+- [ ] No secrets in any repo, including the history. Any key I leaked has been rotated.
+- [ ] Every repo has a `.gitignore`.
+- [ ] No large raw datasets, and notebook outputs are cleared.
+- [ ] Descriptive repo names and commit messages.
 
 ---
 

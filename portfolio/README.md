@@ -4,7 +4,7 @@ LinkedIn and GitHub are must-haves. A portfolio site is optional, but it's the o
 
 It's also the easiest place to become a minion. Hundreds of candidates fork the same popular templates, swap in their name and the same Titanic and Netflix projects, and end up with sites a recruiter could mistake for each other. **A portfolio only helps if someone remembers it after closing the tab.**
 
-This guide covers how to ship one fast, then walks through a portfolio from top to bottom, with a screenshot of the same section of [my site](https://minhbpham.com) (v3.19, November 2026) in each part. There's a [self-review checklist](#self-review-checklist) at the end.
+This guide covers how to ship one fast, then walks through a portfolio from top to bottom, with a screenshot of the same section of [my site](https://minhbpham.com) (v3.19, November 2026) in each part. Each section ends with a short checklist, and the full [self-review checklist](#self-review-checklist) is at the end.
 
 ---
 
@@ -17,6 +17,10 @@ Build one if any of these are true:
 - You're applying to roles where presentation matters (analytics, BI, consulting, anything client-facing).
 
 If you don't have projects yet, spend the time on projects first. An empty portfolio is worse than none.
+
+**Checklist:**
+
+- [ ] At least one is true: I have 3+ projects worth explaining, I write, or presentation matters for the roles I want. If none are, I'm building projects first.
 
 ## Ship fast from a template, then make it yours
 
@@ -33,6 +37,12 @@ Ship a simple version in a weekend, then improve it. A live site with 80% polish
 
 **On my site:** I started from [folio](https://github.com/ayush013/folio) by Ayush Singh (MIT, credited in my README). It's built with Next.js, Tailwind CSS and GSAP, deployed on Netlify from `main`, on a custom domain. All the content (roles, projects, skills, testimonials, links) lives in one file, `constants.ts`, so adding a new job is a single edit, and a changelog (`VERSION.md`) records every change. The sections that make it memorable (the data-flow diagram, the SQL editor, the testimonials IDE below) aren't in the template at all; I added them one at a time.
 
+**Checklist:**
+
+- [ ] Template license checked, and the original author credited in my README.
+- [ ] Deployed automatically from `main`, on a custom domain.
+- [ ] **Copy-paste test:** someone who knows the template I started from wouldn't recognise it.
+
 ---
 
 ## 1. Hero
@@ -43,6 +53,11 @@ Your name, your role, one line on what you do, and your main calls to action, al
 
 **On my site:** my name, then a typed line that rotates through facts (*"1000+ SQL questions solved"*, my role, my university, *"Remote"*), icons for every profile, and two buttons: **Download Resume** and **Book a coffee chat**. There's also a small visitor counter, which is a bit of fun and also proof that people actually visit.
 
+**Checklist:**
+
+- [ ] Name, role, one-line pitch and calls to action are visible without scrolling.
+- [ ] The same only-me facts as my LinkedIn headline.
+
 ## 2. Show how you work
 
 ![My "How my data flows" diagram](images/02-data-flows.png)
@@ -50,6 +65,10 @@ Your name, your role, one line on what you do, and your main calls to action, al
 Most portfolios *say* "I build data pipelines". Show one instead. A diagram of a real architecture you've worked on tells a hiring manager more in five seconds than a paragraph of skills.
 
 **On my site:** *"How my data flows"* is an architecture diagram of real stacks I've worked on, from sources through ingestion, lake, load and warehouse to consumers. You can switch between my Insurify and Infinite Lambda stacks. It's specific (Airbyte, S3, Redshift + dbt, Hightouch, Airflow on MWAA), so it's obviously mine and not a stock image.
+
+**Checklist:**
+
+- [ ] At least one diagram of real work I've done, specific enough that it's obviously mine.
 
 ## 3. Something interactive
 
@@ -59,6 +78,10 @@ One interactive thing that matches your field makes your site unforgettable, bec
 
 **On my site:** *"Query my career"* is a SQL editor over a small warehouse of my own career data: *"1000+ SQL questions solved — run one yourself. Real data, real SQL, zero warehouse bill."* There are preset queries (*Where has he worked?*, *Who vouches for him? (JOIN)*), and pressing **Run** returns real rows. A recruiter who's read 100 portfolios has never read one they could query.
 
+**Checklist:**
+
+- [ ] The visitor can do something, not just read: a query, a chart from my own data, a small tool.
+
 ## 4. What others say
 
 ![My testimonials section, shown as an IDE](images/04-testimonials.png)
@@ -66,6 +89,10 @@ One interactive thing that matches your field makes your site unforgettable, bec
 A quote from a manager, mentor or teammate is worth more than any adjective you write about yourself. Ask for recommendations on LinkedIn (see the [LinkedIn guide](../linkedin/README.md#12-recommendations)), then reuse them here with permission.
 
 **On my site:** *"18 recommendations, one editor. Browse the files — or just ask the bot."* The recommendations are laid out like a code editor, with one markdown file per person, organised in folders by company and seniority. Above them, "common threads" summarise what people say most (*Owns pipelines end-to-end*, *Deep technical expertise*, *Team multiplier*). There's also a scripted "MarkBot" (*"no tokens were harmed"*) that answers questions like *"What do people say about his mentorship?"* The same 18 quotes as a plain list would be easy to skip; this way people actually read them.
+
+**Checklist:**
+
+- [ ] Quotes from real managers, mentors or teammates, used with their permission.
 
 ## 5. Projects as case studies
 
@@ -83,6 +110,12 @@ Two or three projects written up like this beat fifteen one-line cards. Every pr
 
 **On my site:** *"My Works — What I do at 2 AM on a Saturday."* Projects are filterable by category (Featured, Data Pipeline, ML & Statistics, BI & Dashboards, Cloud & Infra, Learning). Each card has an image, a one-line description with a number in it (*"Production-grade pipeline scraping 160K+ airline reviews with 26 parallel Airflow tasks"*) and the stack as icons.
 
+**Checklist:**
+
+- [ ] 2–3 projects written up as case studies: question, data, approach, result, what I'd change.
+- [ ] Each one shows a result: a screenshot, a number or an insight.
+- [ ] Each one links to a repo with a proper README.
+
 ## 6. Writing
 
 ![My Articles section](images/06-articles.png)
@@ -90,6 +123,10 @@ Two or three projects written up like this beat fifteen one-line cards. Every pr
 Articles, case studies, blog posts. Even two good ones show you can communicate, which is half of a data job. Write about what you actually did or think, not "10 SQL tips".
 
 **On my site:** *"Analytics, data engineering, and the unglamorous truths from working in data"*, with posts like *"The Productivity Stack I Actually Use as an Analytics Engineer"*. Each has a date, a tag and a read time.
+
+**Checklist:**
+
+- [ ] Every piece is about something I actually did or think, not "10 SQL tips".
 
 ## 7. Experience timeline
 
@@ -99,6 +136,10 @@ Your roles with dates and a line or two each, **matching LinkedIn exactly**. A v
 
 **On my site:** *"A quick recap of proud moments."* Each role has its date, title and company, a one-line subtitle (*"Youngest L6 Analytics Engineer · dbt, Snowflake & Fivetran partner"*), the stack as icons, and the location.
 
+**Checklist:**
+
+- [ ] Every role has dates and a line or two, matching LinkedIn and my resume exactly.
+
 ## 8. Contact and footer
 
 ![My footer](images/08-footer.png)
@@ -106,6 +147,12 @@ Your roles with dates and a line or two each, **matching LinkedIn exactly**. A v
 Make it trivially easy to reach you: email or a booking link (Calendly, Cal.com), your resume as a PDF that's always the latest version, and links to every profile. Repeat them in the footer so they're there wherever someone stops scrolling.
 
 **On my site:** the footer repeats **Book a coffee chat** and **Download resume**, every profile link, and a "source on GitHub" link, which is itself proof of work.
+
+**Checklist:**
+
+- [ ] An email or booking link.
+- [ ] A resume PDF that's the latest version.
+- [ ] Links to every profile, repeated in the footer.
 
 ---
 
@@ -118,9 +165,20 @@ Make it trivially easy to reach you: email or a booking link (Calendly, Cal.com)
 - **No broken links:** click every link before you share the site.
 - **Keep content in one place:** if all text, projects and roles live in one data file, updating the site takes minutes instead of hunting through components.
 
+**Checklist:**
+
+- [ ] Checked on a phone.
+- [ ] Lighthouse has nothing red.
+- [ ] Page title, description and Open Graph image are set.
+- [ ] I clicked every link, and none are broken.
+
 ## Keep it current
 
 An outdated portfolio is worse than none. Every time something changes (new job, new project, new article), update LinkedIn, GitHub and the portfolio **together**, so all three tell the same story with the same titles and dates.
+
+**Checklist:**
+
+- [ ] My latest job, project and article are on LinkedIn, GitHub and my portfolio, with the same titles and dates.
 
 ---
 

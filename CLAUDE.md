@@ -59,7 +59,7 @@ Every guide follows the same shape:
 1. **Intro:** what the platform is for, and why most people's version is a minion version.
 2. **Before you start:** the foundation that comes before presentation (target role and only-me facts; projects nobody else has; whether you need a portfolio at all).
 3. **Numbered sections in the order a visitor sees them on the real platform, top to bottom.** On LinkedIn: banner and photo → headline → location and links → Open to Work → About → Featured → Experience → Education → Certifications → Projects → Skills → Recommendations → Courses → Activity. GitHub and the portfolio guide follow their own page order.
-4. In each section: the advice, then **"On my profile:"** (or "On my site:") with a screenshot of that section of Mark's real profile and what to notice about it.
+4. In each section: the advice, then **"On my profile:"** (or "On my site:") with a screenshot of that section of Mark's real profile and what to notice about it, then a short **Checklist:** of `- [ ]` items for that section.
 5. **Common mistakes**, starting with the minion version.
 6. **Self-review checklist**, grouped, including the copy-paste test.
 
