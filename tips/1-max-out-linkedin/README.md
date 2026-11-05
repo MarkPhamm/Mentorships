@@ -4,6 +4,8 @@
 
 LinkedIn limits how many connection requests you can send each week. Without Premium, I believe it's around 70, and LinkedIn changes this, so check yours. **Use all of them, every week.** An unused invitation is a free introduction you threw away.
 
+**Get yourself to at least 500 connections.** That's when your profile shows "500+ connections" instead of an exact number. Below it, you look like you just signed up.
+
 ## Who to connect with
 
 **Think about the role you want to be in a few years from now, then connect with the people already in it.** If you want to be an analytics engineer at a fintech, find analytics engineers at fintechs. Their recruiters, their managers, the people who were juniors there two years ago.
