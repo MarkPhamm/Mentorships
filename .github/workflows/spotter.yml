@@ -1,0 +1,24 @@
+name: Spotter
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # daily reminder, 03:00 UTC = 9pm CST (10pm during CDT; cron has no DST)
+    - cron: "0 15 * * 0" # weekly summary, Sundays 15:00 UTC
+  workflow_dispatch: # run by hand from the Actions tab
+    inputs:
+      mode:
+        type: choice
+        options: [daily, weekly]
+        default: daily
+
+jobs:
+  spotter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python spotter/tracker.py "$MODE"
+        env:
+          MODE: ${{ inputs.mode || (github.event.schedule == '0 15 * * 0' && 'weekly') || 'daily' }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLACK_BOT_TOKEN: ${{ secrets.DATA_SPOTTER_TOKEN }}
+          SLACK_CHANNEL: ${{ vars.SLACK_CHANNEL }}

@@ -1,0 +1,19 @@
+display_information:
+  name: Spotter
+  description: Watches your reps. Daily commit check for mentees.
+  background_color: "#1d1d1d"
+features:
+  app_home:
+    messages_tab_enabled: true
+    messages_tab_read_only_enabled: false
+  bot_user:
+    display_name: Spotter
+    always_online: true
+oauth_config:
+  scopes:
+    bot:
+      - chat:write
+settings:
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false
