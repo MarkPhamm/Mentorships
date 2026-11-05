@@ -21,4 +21,4 @@ jobs:
           MODE: ${{ inputs.mode || (github.event.schedule == '0 15 * * 0' && 'weekly') || 'daily' }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SLACK_BOT_TOKEN: ${{ secrets.DATA_SPOTTER_TOKEN }}
-          SLACK_CHANNEL: ${{ vars.SLACK_CHANNEL }}
+          SLACK_CHANNEL: C0CEU65LT18 # #all-mentee
