@@ -56,6 +56,8 @@ DAILY_REMINDERS = [
     "Recruiters don't read promises, they read green squares. Prove, don't beg. Push today.",
     "Everyone says they're learning SQL. Your commits are what make you not a minion.",
     "No commit, no proof. No proof, no interview. Push something before you sleep.",
+    "There's no \"weekends\" when you don't achieve what you want. "
+    "Saturday is just another day. Commit something.",
 ]
 NUDGE = (
     "3 days, 0 commits. That's how people end up graduating with no internship and a dead GitHub. "
