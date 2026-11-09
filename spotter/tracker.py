@@ -97,7 +97,7 @@ def weekly_message(results, since, until):
             f"{r['repository']['nameWithOwner']} ({r['contributions']['totalCount']})"
             for r in c["commitContributionsByRepository"]
         )
-        lines.append(f"• {mention(m)}: {n} commits, active {min(len(days), 7)}/7 days. Top repos: {repos or 'private'}")
+        lines.append(f"• {mention(m)}: :white_check_mark: {n} commits, active {min(len(days), 7)}/7 days. Top repos: {repos or 'private'}")
     unknown = [m["github"] for m, c in results if c is None]
     if unknown:
         lines.append(f":warning: GitHub user not found: {', '.join(unknown)}")

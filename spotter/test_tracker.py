@@ -32,12 +32,14 @@ assert msg.index("<@U1>") < msg.index("<@U2>"), "sorted by commits"
 assert "5 commits, active 2/7 days" in msg, "day before window ignored"
 assert "a/x (4), a/y (1)" in msg
 assert "<@U2>: :x: 0 commits" in msg
+assert ":white_check_mark:" in msg, "commits get a green check"
+assert ":white_check_mark:" not in msg.split("<@U2>")[1], "zero commits keep the x, not a check"
 assert "not found: ghost" in msg
 
 # mentee with a GitHub handle but no Slack ID still shows up, by name
 d = {"name": "Mia Tran", "github": "mia", "slack": None}
 msg = weekly_message([(d, contrib(4, [("mia/x", 4)], ["2026-11-02"]))], since, until)
-assert "• Mia Tran: 4 commits, active 1/7 days. Top repos: mia/x (4)" in msg
+assert "• Mia Tran: :white_check_mark: 4 commits, active 1/7 days. Top repos: mia/x (4)" in msg
 
 # a DM channel ID is a valid DM target but not a mentionable member ID
 dm = {"name": "Mia Tran", "github": "mia", "slack": "D0CF7S9JS4A"}
