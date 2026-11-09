@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from tracker import to_nudge, weekly_message
+from tracker import mention, to_nudge, weekly_message
 
 
 def contrib(n, repos=(), days=()):
@@ -33,4 +33,14 @@ assert "5 commits, active 2/7 days" in msg, "day before window ignored"
 assert "a/x (4), a/y (1)" in msg
 assert "<@U2>: :x: 0 commits" in msg
 assert "not found: ghost" in msg
+
+# mentee with a GitHub handle but no Slack ID still shows up, by name
+d = {"name": "Mia Tran", "github": "mia", "slack": None}
+msg = weekly_message([(d, contrib(4, [("mia/x", 4)], ["2026-11-02"]))], since, until)
+assert "• Mia Tran: 4 commits, active 1/7 days. Top repos: mia/x (4)" in msg
+
+# a DM channel ID is a valid DM target but not a mentionable member ID
+dm = {"name": "Mia Tran", "github": "mia", "slack": "D0CF7S9JS4A"}
+assert mention(dm) == "Mia Tran"
+assert mention({"name": "A", "slack": "U1"}) == "<@U1>"
 print("ok")

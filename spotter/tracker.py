@@ -70,13 +70,22 @@ def to_nudge(results):
     return [m for m, c in results if c and not commits(c)]
 
 
+def mention(m):
+    """Slack @-mention, or the roster name when there's no ID or it's not a member ID (D/C/G).
+
+    A DM channel ID still works as a DM target, but Slack won't resolve it inside `<@...>`.
+    """
+    sid = m.get("slack") or ""
+    return f"<@{sid}>" if sid.startswith(("U", "W")) else m["name"]
+
+
 def weekly_message(results, since, until):
     lines = [f"*Weekly GitHub summary* ({since:%b %d} to {until:%b %d})"]
     found = [(m, c) for m, c in results if c]
     for m, c in sorted(found, key=lambda mc: -commits(mc[1])):
         n = commits(c)
         if not n:
-            lines.append(f"• <@{m['slack']}>: :x: 0 commits this week")
+            lines.append(f"• {mention(m)}: :x: 0 commits this week")
             continue
         days = {
             d["date"]
@@ -88,7 +97,7 @@ def weekly_message(results, since, until):
             f"{r['repository']['nameWithOwner']} ({r['contributions']['totalCount']})"
             for r in c["commitContributionsByRepository"]
         )
-        lines.append(f"• <@{m['slack']}>: {n} commits, active {min(len(days), 7)}/7 days. Top repos: {repos or 'private'}")
+        lines.append(f"• {mention(m)}: {n} commits, active {min(len(days), 7)}/7 days. Top repos: {repos or 'private'}")
     unknown = [m["github"] for m, c in results if c is None]
     if unknown:
         lines.append(f":warning: GitHub user not found: {', '.join(unknown)}")
@@ -110,7 +119,8 @@ def post(channel, text):
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "daily"
     with open(os.path.join(os.path.dirname(__file__), "mentees.json")) as f:
-        mentees = [m for m in json.load(f) if m.get("slack") and m.get("github")]  # skip incomplete entries
+        # Slack is only needed to DM someone; a missing ID still gets them into the weekly summary.
+        mentees = [m for m in json.load(f) if m.get("github")]
     until = datetime.now(timezone.utc)
     since = until - timedelta(days=7 if mode == "weekly" else 3)
     token = os.environ["GITHUB_TOKEN"]
@@ -124,8 +134,14 @@ def main():
 
     post(os.environ["SLACK_CHANNEL"], DAILY_REMINDERS[until.toordinal() % len(DAILY_REMINDERS)])
     for m in to_nudge(results):
-        print(f"nudging {m['github']}")
-        post(m["slack"], NUDGE)  # a user ID as channel = DM from the app
+        if not m.get("slack"):
+            print(f"no Slack ID for {m['github']}, skipping nudge")
+            continue
+        print(f"nudging {m['github']} via {m['slack']}")
+        try:
+            post(m["slack"], NUDGE)  # a user ID (or a DM channel ID) = DM from the app
+        except (Exception, SystemExit) as e:
+            print(f"nudge to {m['github']} failed: {e}")  # one bad channel shouldn't stop the rest
 
 
 if __name__ == "__main__":
