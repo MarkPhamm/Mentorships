@@ -41,6 +41,11 @@ d = {"name": "Mia Tran", "github": "mia", "slack": None}
 msg = weekly_message([(d, contrib(4, [("mia/x", 4)], ["2026-11-02"]))], since, until)
 assert "• Mia Tran: :white_check_mark: 4 commits, active 1/7 days. Top repos: mia/x (4)" in msg
 
+# a single commit reads "1 commit", not "1 commits"
+msg = weekly_message([(a, contrib(1, [("a/x", 1)], ["2026-11-01"]))], since, until)
+assert ":white_check_mark: 1 commit, active" in msg
+assert "1 commits" not in msg
+
 # a DM channel ID is a valid DM target but not a mentionable member ID
 dm = {"name": "Mia Tran", "github": "mia", "slack": "D0CF7S9JS4A"}
 assert mention(dm) == "Mia Tran"
