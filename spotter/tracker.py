@@ -2,6 +2,9 @@
 
 `python tracker.py daily`  : channel reminder to commit, and DM anyone with no commits in 3 days.
 `python tracker.py weekly` : per-mentee summary of the last 7 days.
+`python tracker.py roster` : the mentees.json roster as a table in the channel.
+
+Roster posts are skipped (and the payload printed) when SLACK_BOT_TOKEN is unset, so it's a dry run.
 """
 import json
 import os
@@ -104,10 +107,52 @@ def weekly_message(results, since, until):
     return "\n".join(lines)
 
 
-def post(channel, text):
+def _plain(text):
+    return {"type": "raw_text", "text": text}
+
+
+def _link(label, url):
+    # Table cells render mrkdwn only through rich_text, so build the link by hand.
+    return {
+        "type": "rich_text",
+        "elements": [
+            {"type": "rich_text_section", "elements": [{"type": "link", "url": url, "text": label}]},
+        ],
+    }
+
+
+def roster_message(mentees):
+    """`text` plus Block Kit `blocks` showing the roster as a native Slack table.
+
+    Columns are name, GitHub and LinkedIn. The header row is the first row of the table.
+    """
+    rows = [[_plain("Name"), _plain("GitHub"), _plain("LinkedIn")]]
+    for m in mentees:
+        name = m.get("name") or m.get("github") or "—"
+        gh = m.get("github")
+        li = m.get("linkedin")
+        display = li.split("linkedin.com/in/")[-1].rstrip("/") if li else None
+        rows.append(
+            [
+                _plain(name),
+                _link(gh, f"https://github.com/{gh}") if gh else _plain("—"),
+                _link(f"in/{display}", li) if li else _plain("—"),
+            ]
+        )
+    blocks = [
+        {"type": "section", "text": {"type": "mrkdwn", "text": f"*Mentee roster*: {len(mentees)} mentees"}},
+        {"type": "table", "column_settings": [{"is_wrapped": True}] * 3, "rows": rows},
+    ]
+    return f"Mentee roster: {len(mentees)} mentees", blocks
+
+
+def post(channel, text, blocks=None):
+    payload = {"channel": channel, "text": text}
+    if blocks:
+        payload["blocks"] = blocks
     req = urllib.request.Request(
         "https://slack.com/api/chat.postMessage",
-        json.dumps({"channel": channel, "text": text}).encode(),
+        json.dumps(payload).encode(),
         {"Authorization": f"Bearer {os.environ['SLACK_BOT_TOKEN']}", "Content-Type": "application/json; charset=utf-8"},
     )
     with urllib.request.urlopen(req) as r:
@@ -118,6 +163,19 @@ def post(channel, text):
 
 def main():
     mode = sys.argv[1] if len(sys.argv) > 1 else "daily"
+    if mode == "roster":
+        with open(os.path.join(os.path.dirname(__file__), "mentees.json")) as f:
+            mentees = json.load(f)
+        text, blocks = roster_message(mentees)
+        payload = json.dumps({"channel": os.environ.get("SLACK_CHANNEL", "#all-mentee"), "text": text, "blocks": blocks}, indent=2)
+        if not os.environ.get("SLACK_BOT_TOKEN"):
+            print(payload)
+            print("\n(dry run: SLACK_BOT_TOKEN not set, nothing posted)")
+            return
+        post(os.environ["SLACK_CHANNEL"], text, blocks)
+        print(text)
+        return
+
     with open(os.path.join(os.path.dirname(__file__), "mentees.json")) as f:
         # Slack is only needed to DM someone; a missing ID still gets them into the weekly summary.
         mentees = [m for m in json.load(f) if m.get("github")]

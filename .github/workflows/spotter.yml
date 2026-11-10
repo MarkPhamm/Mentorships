@@ -8,7 +8,7 @@ on:
     inputs:
       mode:
         type: choice
-        options: [daily, weekly]
+        options: [daily, weekly, roster]
         default: daily
 
 jobs:

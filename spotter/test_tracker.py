@@ -1,6 +1,9 @@
 from datetime import datetime
 
-from tracker import mention, to_nudge, weekly_message
+import json
+import os
+
+from tracker import mention, roster_message, to_nudge, weekly_message
 
 
 def contrib(n, repos=(), days=()):
@@ -50,4 +53,25 @@ assert "1 commits" not in msg
 dm = {"name": "Mia Tran", "github": "mia", "slack": "D0CF7S9JS4A"}
 assert mention(dm) == "Mia Tran"
 assert mention({"name": "A", "slack": "U1"}) == "<@U1>"
+
+# roster table: header row, one row per mentee, GitHub and LinkedIn as links
+roster = [
+    {"name": "Gwen Nguyen", "github": "gwenniehub", "linkedin": "https://www.linkedin.com/in/gwennienguyen/"},
+    {"name": "No Links", "github": None, "linkedin": None},
+]
+text, blocks = roster_message(roster)
+table = blocks[1]
+assert table["type"] == "table"
+assert [c["text"] for c in table["rows"][0]] == ["Name", "GitHub", "LinkedIn"], "first row is the header"
+assert all(len(row) == 3 for row in table["rows"]), "every row has three cells"
+assert table["rows"][1][1]["elements"][0]["elements"][0]["url"] == "https://github.com/gwenniehub"
+assert table["rows"][1][2]["elements"][0]["elements"][0]["text"] == "in/gwennienguyen"
+assert table["rows"][2][1] == {"type": "raw_text", "text": "—"}, "missing links render as a dash"
+assert text == "Mentee roster: 2 mentees"
+
+# the real roster gets exactly one row each
+with open(os.path.join(os.path.dirname(__file__), "mentees.json")) as f:
+    real = json.load(f)
+assert len(roster_message(real)[1][1]["rows"]) == len(real) + 1
+
 print("ok")
