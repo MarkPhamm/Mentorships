@@ -96,11 +96,13 @@ def weekly_message(results, since, until):
             for d in w["contributionDays"]
             if d["contributionCount"] and d["date"] >= f"{since:%Y-%m-%d}"
         }
+        active = min(len(days), 7)
+        icon = ":white_check_mark:" if active >= 5 else ":large_yellow_circle:" if active else ":x:"
         repos = ", ".join(
             f"{r['repository']['nameWithOwner']} ({r['contributions']['totalCount']})"
             for r in c["commitContributionsByRepository"]
         )
-        lines.append(f"• {mention(m)}: :white_check_mark: {n} commit{'' if n == 1 else 's'}, active {min(len(days), 7)}/7 days. Top repos: {repos or 'private'}")
+        lines.append(f"• {mention(m)}: {icon} {n} commit{'' if n == 1 else 's'}, active {active}/7 days. Top repos: {repos or 'private'}")
     unknown = [m["github"] for m, c in results if c is None]
     if unknown:
         lines.append(f":warning: GitHub user not found: {', '.join(unknown)}")
